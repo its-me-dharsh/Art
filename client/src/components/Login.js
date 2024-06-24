@@ -11,7 +11,7 @@ function Login() {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/login', { email, password }, { withCredentials: true });
+      const response = await axios.post('http://localhost:5000/login', { email, password });
       alert(response.data.message);
       navigate('/Profile');
     } catch (error) {
