@@ -1,0 +1,60 @@
+/*Register.css*/
+
+.regFields{
+    padding-left: 0;
+    padding-top: 127px;
+    font-weight: bold;
+  }
+  .reginputfields{
+    width:9cm;
+    padding: 2px;
+    color: gray;
+    margin-top: 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 2px;
+    text-align: center;
+    background-color: transparent;
+    
+  }
+  .register{
+    border-radius: 20px;
+    padding-top: 0;
+    margin-left: 490px;
+    margin-top: 5%;
+    padding-bottom: 500px;
+    text-align: center;
+    background-image: url("https://img.freepik.com/premium-photo/white-frame-with-red-border-white-frame-that-says-word-it_916191-199908.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 550px;
+    height: 750px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+  .RegisterWorkshop{
+    position: absolute;
+    padding-top:0;
+    transform:translate(-50%,-50%);
+    left:50%;
+    padding-bottom: 5%;
+  }
+  .SubmitButton{
+    width: 4.5cm;
+    background-color: black;
+    color: white;
+    padding-bottom: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 14px;
+  }
+  
+  .SubmitButton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
